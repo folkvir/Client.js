@@ -48,10 +48,7 @@
     "sinon": "^1.17.4",
     "sinon-chai": "^2.8.0"
   },
-  "pre-commit": [
-    "lint",
-    "test"
-  ],
+  "pre-commit": [],
   "browser": {
     "crypto": "./lib/browser/crypto.js",
     "./lib/util/Request": "./lib/browser/Request.js",
